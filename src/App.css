@@ -1,0 +1,34 @@
+
+.my--container {
+    position: relative;
+    height: 100svh;
+    text-align: center;
+    /* background-image: url(./assets/img/cloudy.jpg); */
+    background-position: center;
+    overflow: hidden;
+}
+
+.my_button {
+    border-radius: 4px;
+    background-color: #3d405b;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 0.5rem 2rem;
+   
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+.imgWrapper {
+    position: absolute;
+        z-index: -1;
+    /*  */
+}
+
+#BgImgs {  
+    width: 100vw;
+    height: 100svh;
+    object-fit: cover;
+}
